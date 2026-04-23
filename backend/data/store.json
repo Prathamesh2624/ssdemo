@@ -7,7 +7,7 @@
   },
   "admin": {
     "username": "admin",
-    "passwor": "Sunrise@123",
+   "passwordHash": "$2b$10$TRrWvhaF3Vh8OqLz8mqa8uXMX9vdomHglg0GY4vL/Ug6FhS6OMDNO"
     "phone": "9371820223",
     "pendingOtp": null,
     "otpExpiresAt": null
