@@ -310,7 +310,7 @@ function AdminModal({ token, onLogin, onLogout, close, refreshProducts, api }) {
         <h3>Admin Login</h3>
         <input value={auth.username} onChange={(e) => setAuth({ ...auth, username: e.target.value })} placeholder="Username" />
         <input type="password" value={auth.password} onChange={(e) => setAuth({ ...auth, password: e.target.value })} placeholder="Password" />
-        <p className="muted">Default login: admin / Sunrise@123</p>
+        {/* <p className="muted">Default login: admin / Sunrise@123</p> */}
         {error && <p className="error">{error}</p>}
         <div className="row end gap-sm"><button className="btn btn-light" onClick={close}>Close</button><button className="btn btn-dark" onClick={login}>Login</button></div>
       </div></div>
